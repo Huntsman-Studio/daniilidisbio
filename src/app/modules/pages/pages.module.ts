@@ -8,6 +8,7 @@ import { HomeComponent } from './main/home/home.component';
 import { AboutComponent } from './main/about/about.component';
 import { BioComponent } from './main/bio/bio.component';
 import { ContactComponent } from './main/contact/contact.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -23,7 +24,9 @@ import { ContactComponent } from './main/contact/contact.component';
   ],
   imports: [
     CommonModule,
-    PagesRoutingModule
+    PagesRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ]
 })
 export class PagesModule { }
