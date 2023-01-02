@@ -25,5 +25,7 @@ export class ContactComponent implements OnInit {
     });
   }
 
-  submitContactForm(form: FormGroup): void {}
+  submitContactForm(form: FormGroup): void {
+    console.log(form);
+  }
 }

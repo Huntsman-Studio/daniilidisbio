@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild, ElementRef, HostListener } from '@angular/core';
+import { Component, ElementRef, HostListener, OnInit, ViewChild } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 import { fromEvent } from 'rxjs';
 import { GlobalDataService } from 'src/app/core/global-data.service';
@@ -8,27 +8,28 @@ import { GlobalDataService } from 'src/app/core/global-data.service';
   templateUrl: './main.component.html',
   styleUrls: ['./main.component.scss']
 })
+
 export class MainComponent implements OnInit {
 
   @ViewChild("logo") logo!: ElementRef;
-  @ViewChild("div", {static: true}) div!: ElementRef;
+  @ViewChild("home") home!: ElementRef;
+  @ViewChild("about") about!: ElementRef;
+  @ViewChild("bio") bio!: ElementRef;
+  @ViewChild("contact") contact!: ElementRef;
 
-  constructor(private _meta: Meta, private _title: Title, private _globalDataService: GlobalDataService, private el: ElementRef) {
-    
+  constructor(
+    private _meta: Meta, 
+    private _title: Title, 
+    private _globalDataService: GlobalDataService) {}
+
+  ngOnInit(): void {
+    fromEvent(window, "scroll").subscribe((event) => {
+      console.log("scroll", event);
+    })
   }
-
-  ngOnInit(): void {}
-
-
 
   // open menu
   showMenu(): void {
     this._globalDataService.showHideMenu(true);
-  }
-
-  scrollBehaviour(): void {
-    // console.log(window.pageXOffset)
-    // console.log(this.logo);
-    // this.logo.nativeElement.style.fill = 'blue';
   }
 }
