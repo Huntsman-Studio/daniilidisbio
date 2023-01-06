@@ -9,6 +9,7 @@ import { AboutComponent } from './main/about/about.component';
 import { BioComponent } from './main/bio/bio.component';
 import { ContactComponent } from './main/contact/contact.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HeaderModule } from '../header/header.module';
 
 
 
@@ -26,7 +27,11 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     CommonModule,
     PagesRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HeaderModule
+  ],
+  exports: [
+    HeaderModule
   ]
 })
 export class PagesModule { }
