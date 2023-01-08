@@ -1,14 +1,56 @@
 [
     {
         "imagePath": "",
-        "title": "",
-        "color": "",
-        "slug": ""
+        "title": "Ωποροφόρα",
+        "color": "#DD3E54",
+        "slug": "oporofora"
     },
     {
         "imagePath": "",
-        "title": "",
-        "color": "",
-        "slug": ""
+        "title": "Ξηροί Καρποί",
+        "color": "#83444D",
+        "slug": "kshroi-karpoi"
+    },
+    {
+        "imagePath": "",
+        "title": "Δασικά",
+        "color": "#7B413A",
+        "slug": "dasika"
+    },
+    {
+        "imagePath": "",
+        "title": "Ελιές",
+        "color": "#696848",
+        "slug": "elies"
+    },
+    {
+        "imagePath": "",
+        "title": "Σταφύλια",
+        "color": "#C95439",
+        "slug": "stafilia"
+    },
+    {
+        "imagePath": "",
+        "title": "Εσπεριδοειδή",
+        "color": "#2F3E37",
+        "slug": "esperidoeidi"
+    },
+    {
+        "imagePath": "",
+        "title": "Super Foods",
+        "color": "#3D425F",
+        "slug": "super-foods"
+    },
+    {
+        "imagePath": "",
+        "title": "Bamboo",
+        "color": "#332A27",
+        "slug": "bamboo"
+    },
+    {
+        "imagePath": "",
+        "title": "Καλλωπιστικά",
+        "color": "#FA8464",
+        "slug": "kallopistika"
     }
 ]
