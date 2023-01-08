@@ -1,4 +1,4 @@
-<section *ngIf="menu" class="bg-[#EFF1F0] px-6 pt-6 pb-12 absolute top-0 left-0 z-50 w-full">
+<section *ngIf="menu" class="bg-[#EFF1F0] px-6 pt-6 pb-12 absolute top-0 left-0 z-50 w-full overflow-scroll">
 
     <div class="flex justify-center mb-9">
         <svg (click)="closeMenu()" width="185" height="40" viewBox="0 0 185 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -15,7 +15,7 @@
     </div>
 
     <!-- categories -->
-    <div>
+    <div class="overflow-scroll">
         <nav class="space-y-4">
             <div *ngFor="let item of categories">
                 <div
@@ -40,7 +40,7 @@
         </nav>
     </div>
 
-    <div class="w-full flex justify-center absolute bottom-5 left-0">
+    <div class="w-full flex justify-center fixed bottom-5 left-0">
         <div (click)="closeMenu()" class="flex justify-center items-center rounded-full bg-[#CEE9DC] w-16 h-16">
             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M25 7L7 25" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>

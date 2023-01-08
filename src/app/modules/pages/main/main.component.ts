@@ -10,12 +10,18 @@ import { GlobalDataService } from 'src/app/core/global-data.service';
 
 export class MainComponent implements OnInit {
 
+  menu: boolean | undefined;
+
   constructor(
     private _meta: Meta, 
     private _title: Title, 
     private _globalDataService: GlobalDataService) {}
 
-    ngOnInit(): void {}
+    ngOnInit(): void {
+      this._globalDataService.menu.subscribe(res => {
+        this.menu = res;
+      })
+    }
 
   // open menu
   showMenu(): void {
