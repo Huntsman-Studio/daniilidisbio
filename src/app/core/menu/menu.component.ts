@@ -10,18 +10,7 @@ export class MenuComponent implements OnInit {
 
   menu: boolean | undefined;
 
-  categories: ICategory[] = [
-    // { imagePath: 'assets/images/categories.png', title: 'Οπωροφόρα', color: '#DD3E54', slug: 'oporofora' },
-    // { imagePath: 'assets/images/categories.png', title: 'Ξηροί Καρποί', color: '#83444D', slug: 'ksiri-karpoi' },
-    // { imagePath: 'assets/images/categories.png', title: 'Ξηροί Καρποί', color: '#83444D', slug: 'ksiri-karpoi' },
-    // { imagePath: 'assets/images/categories.png', title: 'Ξηροί Καρποί', color: '#83444D', slug: 'ksiri-karpoi' },
-    // { imagePath: 'assets/images/categories.png', title: 'Ξηροί Καρποί', color: '#83444D', slug: 'ksiri-karpoi' },
-    // { imagePath: 'assets/images/categories.png', title: 'Ξηροί Καρποί', color: '#83444D', slug: 'ksiri-karpoi' },
-    // { imagePath: 'assets/images/categories.png', title: 'Ξηροί Καρποί', color: '#83444D', slug: 'ksiri-karpoi' },
-    // { imagePath: 'assets/images/categories.png', title: 'Ξηροί Καρποί', color: '#83444D', slug: 'ksiri-karpoi' },
-    // { imagePath: 'assets/images/categories.png', title: 'Ξηροί Καρποί', color: '#83444D', slug: 'ksiri-karpoi' },
-    // { imagePath: 'assets/images/categories.png', title: 'Δασικά', color: '#7B413A', slug: 'dasika' }
-  ];
+  categories: ICategory[] = [];
 
   constructor (private _globalDataService: GlobalDataService) {}
 
