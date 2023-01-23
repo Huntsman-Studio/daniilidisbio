@@ -1,16 +1,275 @@
 [
     {
         "imagePath": "",
-        "title": "",
-        "slug": "",
-        "description": "",
-        "categorySlug": ""
+        "title": "Ροδακινιές",
+        "slug": "rodakinies",
+        "description": "Υποκείμενα: Σπορόφυτο, Ishtara – Ferciana, Cadaman – Avimag, GF677, Puebla de Sotto, Adesoto, Rootpac R Replant pac (POV) CER\nΠοικιλίες: Παραδοσιακές και νέες ποικιλίες",
+        "categorySlug": "oporofora"
     },
     {
         "imagePath": "",
-        "title": "",
-        "slug": "",
+        "title": "Νεκταρινιές",
+        "slug": "nektarinies",
+        "description": "Υποκείμενα: Σπορόφυτο, Ishtara – Ferciana, Cadaman – Avimag, GF677, Puebla de Sotto, Adesoto\n Ποικιλίες: Κλασσικές και νέες ποικιλίες.\nEarly Dream, Florendia, Red Ball, New Top, Gea, Luciana, Sweet Lady, Zephyr, Kay Sweet, Garcica\nΝέα ποικιλία κοκκινόσαρκης νεκταρινιάς.",
+        "categorySlug": "oporofora"
+    },
+    {
+        "imagePath": "",
+        "title": "Μηλιές",
+        "slug": "milies",
+        "description": "Υποκείμενα: Σπορόφυτο, M9, M26, PI 80, EMLA 9, PJ 1, PJ 2, MM 106, MM 111\n Ποικιλίες: Κλασσικές και νέες ποικιλίες πρώιμες και όψιμες για υπέρπυκνη φύτευση.",
+        "categorySlug": "oporofora"
+    },
+    {
+        "imagePath": "",
+        "title": "Αχλαδιές",
+        "slug": "axladies",
         "description": "",
-        "categorySlug": "https://www.figma.com/file/CjyZa6VTR5IFLOgTYcTEWh/%CE%94%CE%B1%CE%BD%CE%B9%CE%B7%CE%BB%CE%AF%CE%B4%CE%B7%CF%82-%CE%A6%CF%85%CF%84%CF%8E%CF%81%CE%B9%CE%B1?node-id=59%3A567&t=RUwvK08livhvhTJx-0"
+        "categorySlug": "oporofora"
+    },
+    {
+        "imagePath": "",
+        "title": "Κερασιές",
+        "slug": "kerasies",
+        "description": "Διατίθενται Ευρωπαϊκές και Ελληνικές ποικιλίες.\nΥποκείμενα: Gisela 5, Gisela 6, MaXMa 14, MaXMa 60, Mahaleb, CAB,P-HL-C,Σπορόφυτο\nΠοικιλίες: Κλασσικές και νέες υπερπρώιμες και όψιμες ποικιλίες",
+        "categorySlug": "oporofora"
+    },
+    {
+        "imagePath": "",
+        "title": "Βερυκοκιές",
+        "slug": "verikokies",
+        "description": "Διατίθενται Ευρωπαϊκές και Ελληνικές ποικιλίες.\nΥποκείμενα: Ishtara – Ferciana, 29C, MXR, Puebla De Sotto, Marianna, Σπορόφυτο\nΠοικιλίες: Νέες ποικιλίες με ανθεκτικότητα στη σάρκα και σε ειδικά υποκείμενα για πυκνοφυτεία. Διατίθενται γυμνόριζα και σε γλάστρα.",
+        "categorySlug": "oporofora"
+    },
+    {
+        "imagePath": "",
+        "title": "Δαμασκηνιές",
+        "slug": "damaskinies",
+        "description": "ιατίθενται Ευρωπαϊκές και Ελληνικές ποικιλίες.\nΥποκείμενα: MIR 29C, GF677, Σπορόφυτο\nΠοικιλίες:\nΚοκκινόσαρκες:  BLACK DIAMOND, S.N.17.12 (μετά την BLACK DIAMOND) ,  BLACK SPLENDOR, H.F – 266 (μέσα Ιουνίου).\nΚλασσικές: RED BEAUTY, BLACK BEAUTY, BLACK STAR, SANTA ROSA, BLACK DIAMOND, FORTUNE, BLACK AMBER, OWEN T, FRIAR, TC SUN, ANGELENO, FREEDOM LARION, OCTOBER SUN, AUTUMN GIANT, STANLEY, PRESIDENT, RED QUEEN, ΣΚΟΠΕΛΟΥ (ΑGΕΝ).",
+        "categorySlug": "oporofora"
+    },
+    {
+        "imagePath": "",
+        "title": "Ακτινιδιές",
+        "slug": "aktinidies",
+        "description": "Ποικιλίες:\nTuscia: Πολύ καλή ποικιλία με υψηλή παραγωγικότητα ακόμη και χωρίς αραίωση. Ωριμάζει 5-6 μέρες μετά τη Hayward. Έχει μεγάλο μέγεθος καρπού και παρουσιάζει εξαιρετική ικανότητα αποθήκευσης σε ψυγείο.\nHayward & Hayward cl. 8: Πολύ καλή και μεγαλόκαρπη ποικιλία. Έχει πολύ καλή και δυνατή παραγωγικότητα και μεγάλη αντοχή στο ψυγείο.\nGreen Light: Πολύ καλή ποικιλία όψιμης άνθισης με δυνατή παραγωγικότητα. Έχει πολύ καλές οργανοληπτικές ιδιότητες και πιο χαμηλή οξύτητα από τη Hayward κατά την αποθήκευση. Συγκομιδή 20-25 μέρες πριν τη Hayward.\nΝέα Ποικιλία Κίτρινης Ακτινιδιάς: Παρουσιάζει όμοια συμπεριφορά με τη Hayward\nTomuri: Αρσενική ακτινιδιά",
+        "categorySlug": "oporofora"
+    },
+    {
+        "imagePath": "",
+        "title": "Συκιές",
+        "slug": "sykies",
+        "description": "Διατίθενται Ελληνικές ποικιλίες για νωπή κατανάλωση και ξήρανση.\nΠοικιλίες:\nBlack Mission,Βασιλικά μαύρα και άσπρα, Μαρκόπουλου",
+        "categorySlug": "oporofora"
+    },
+    {
+        "imagePath": "",
+        "title": "Ροδιές",
+        "slug": "rodies",
+        "description": "Διατίθενται Ευρωπαϊκές και Ελληνικές ποικιλίες.\nΠοικιλίες: Επιτραπέζιες και ποικιλίες για χυμό",
+        "categorySlug": "oporofora"
+    },
+    {
+        "imagePath": "",
+        "title": "Κορομηλιές",
+        "slug": "koromilies",
+        "description": "Υποκείμενα: Σπορόφυτο\nΠοικιλίες: ",
+        "categorySlug": "oporofora"
+    },
+    {
+        "imagePath": "",
+        "title": "Κυδωνιές",
+        "slug": "kydonies",
+        "description": "Υποκείμενα: Adams, Sydo\nΠοικιλίες: Νέες ποικιλίες χωρίς χνούδι (μηλοκύδωνα)",
+        "categorySlug": "oporofora"
+    },
+    {
+        "imagePath": "",
+        "title": "Λωτοί",
+        "slug": "lotoi",
+        "description": "Ποικιλίες: Tζίρο, Καραλιοκ, Hana Fuyu, Rojo Brillante",
+        "categorySlug": "oporofora"
+    },
+    {
+        "imagePath": "",
+        "title": "Τροπικά Φρούτα Feijoa",
+        "slug": "tropika-frouta-feijoa",
+        "description": "Το Feijoa είναι αειθαλές θάμνος ή μικρό δέντρο. Ο καρπός ωριμάζει το φθινόπωρο και έχει μέγεθος και σχήμα αυγού. Είναι γλυκός, ζουμερός με ξεχωριστή μυρωδιά.  Το φρούτο feijoa περιέχει πηκτίνη, κυτταρίνη και βιταμίνη C.",
+        "categorySlug": "oporofora"
+    },
+    {
+        "imagePath": "",
+        "title": "Αμυγδαλιές",
+        "slug": "amugdalies",
+        "description": "Penta -Πέντα (αποκλειστική διάθεση στην Ελλάδα)\nΑυτογόνιμη ποικιλία με την πιο όψιμη άνθιση στον κόσμο. Πολύ καλή ποιότητα καρπού και πολύ παραγωγική. Μέση απόδοση 36%. Κατάλληλη και για ορεινές περιοχές. Διατίθενται σε υποκείμενα και για πυκνοφυτεία. Υποκείμενα για ποτιστικά και ξερικά εδάφη.\nMarta -Μάρτα (αποκλειστικότητα για Ελλάδα)\nΑυτογόνιμη ποικιλία με πολύ όψιμη άνθιση. Εξαιρετική ποιότητα καρπού και πολύ παραγωγική. Μέση απόδοση 35%. Κατάλληλη για τις περισσότερες περιοχές στην Ελλάδα. Διατίθενται σε υποκείμενα και για πυκνοφυτεία. Υποκείμενα για ποτιστικά και ξερικά εδάφη.\nAntoneta – Αντονέτα (αποκλειστικότητα για Ελλάδα)\nΑυτογόνιμη ποικιλία με πολύ όψιμη άνθιση. Πολύ καλή ποιότητα και μεγάλο μέγεθος καρπού. Πάρα πολύ παραγωγική. Μέση απόδοση 35%.   Κατάλληλη για τις περισσότερες περιοχές της Ελλάδας και για υγρά εδάφη. Διατίθενται σε υποκείμενα και για πυκνοφυτεία. Υποκείμενα για ποτιστικά και ξερικά εδάφη.\nΕπίσης διατίθενται όλες οι γνωστές ποικιλίες: Τέξας, Φιρανιά, Τουόνο, Γκουάρα, Φεραντουέλ, Ρέτζους",
+        "categorySlug": "kshroi-karpoi"
+    },
+    {
+        "imagePath": "",
+        "title": "Φυστικιές Αιγίνης",
+        "slug": "fustikies-aiginis",
+        "description": "Στο φυτώριο μας θα βρείτε εμβολιασμένα δενδρύλλια φυστικιάς Αιγίνης σε σακουλάκι.",
+        "categorySlug": "kshroi-karpoi"
+    },
+    {
+        "imagePath": "",
+        "title": "Φουντουκιές",
+        "slug": "fountoukies",
+        "description": "Στο φυτώριο μας θα βρείτε εμβολιασμένα δενδρύλλια φουντουκιάς δικής μας παραγωγής, γυμνόριζα και σε γλάστρα, τόσο για συμβατική όσο και για δενδρώδη καλλιέργεια.\nΠοικιλίες: Ennis, Tonda Romana, Tonda Gentile Delle Langhe, Tonda Giffoni, Tomboul, Sibri, Giagli, Palaz",
+        "categorySlug": "kshroi-karpoi"
+    },
+    {
+        "imagePath": "",
+        "title": "Εμβολιασμένες Καρυδιές",
+        "slug": "emboliasmenes-karudies",
+        "description": "Στο φυτώριο μας θα βρείτε δενδρύλλια εμβολιασμένων καρυδιών παραδοσιακών και νέων ποικιλιών. Όλα τα φυτά είναι δικής μας παραγωγής με εμβόλια από επιλεγμένα κτήματα της περιοχής μας.\nΠοικιλίες: Chandler, Fernette, Fernor, Franquette, Ovata,Pescianski, Lara, Ronde de Montignac, Hartley, Parisiene\nRobert Livermore: Νέα Ποικιλία Κόκκινης Καρυδιάς!\nΑμερικάνικη Ποικιλία, δεν χρειάζεται επικονιαστή όμως δίνει ακόμα μεγαλύτερη παραγωγή μαζί με επικονιαστή Franquette. Άνθιση και συγκομιδή όπως η Chandler. Ο καρπός της είναι 15 γρ. και μέσα καθαρός 7-8 γρ. Μετά από 10 χρόνια δίνει παραγωγή 50-60 κιλά καρπό. Υψόμετρο 0-1.200 μέτρα. Έχει περισσότερες βιταμίνες και θρεπτική αξία από τις άλλες ποικιλίες.",
+        "categorySlug": "kshroi-karpoi"
+    },
+    {
+        "imagePath": "",
+        "title": "Καστανιές",
+        "slug": "kastanies",
+        "description": "Στο φυτώριο μας θα βρείτε εμβολιασμένες αλλά και άγριες καστανιές.\nΠοικιλίες: Βολιώτικα, Μαρόνια, Μαριγκούλ (Marigoule), Bouche de Betizac\nΒολιώτικα: Ελληνική ποικιλία με μεγάλη παραγωγικότητα και μέτριο έως μεγάλο καρπό.Μαρόνια: Ευρωπαϊκή ποικιλία με μεγάλο καρπό για νωπή κατανάλωση, ζαχαροπλαστική και βιομηχανική επεξεργασία.Μαριγκούλ (Marigoule): Πλαγιόκλαδη με πολύ μεγάλο καρπό και ανθεκτικότητα στη φυτόφθορα.Bouche de Betizac: Ορθόκλαδη με πολύ μεγάλο καρπό και ανθεκτικότητα στη φυτόφθορα.",
+        "categorySlug": "kshroi-karpoi"
+    },
+    {
+        "imagePath": "",
+        "title": "Πεκάν",
+        "slug": "pecan",
+        "description": "Στο φυτώριο μας θα βρείτε  δενδρύλλια Pecan.\nΠοικιλίες: Mahan, Choctaw, Melrose, Harper, Wichita, Western.",
+        "categorySlug": "kshroi-karpoi"
+    },
+    {
+        "imagePath": "",
+        "title": "Τρούφα",
+        "slug": "troufa",
+        "description": "ΜΙΑ ΠΟΛΛΑ ΥΠΟΣΧΟΜΕΝΗ ΚΑΛΛΙΕΡΓΕΙΑ\nΟι τρούφες είναι οι καρποφορίες υπόγειων μυκήτων του γένους Tuber (Ασκομύκητες). Έχουν σχήμα κονδύλου, μεγέθους 2-7 συνήθως εκατοστών, γκριζόμαυρα έως ωχρόλευκα, που παράγονται μέσα στο έδαφος σε βάθος 6-15 περίπου εκατοστών Οι τρούφες αποτελούν ένα από τα πιο περιζήτητα εδέσματα παγκοσμίως. Η τιμή της τρούφας στην ευρωπαϊκή και αμερικάνικη αγορά κυμαίνεται από 1.220 έως 7000 ευρώ το κιλό.\nΠΟΙΚΙΛΙΕΣ ΤΡΟΥΦΑΣ ΜΕ ΑΥΞΗΜΕΝΟ ΕΜΠΟΡΙΚΟ ΕΝΔΙΑΦΕΡΟΝ\nTuber Melanosporum (Τούβερ το μελανόσπορο)\nΣυνήθως έχει διάμετρο 5-8 εκ., όμως μπορεί να γίνει και μεγαλύτερη. Το βάρος της ζυγίζει από μερικά γραμμάρια έως 40-150 γρ., ενίοτε ζυγίζει 200-300γρ., σπάνια δε μπορεί να φτάσει τα 600 γρ. Ωριμάζει από μέσα Νοεμβρίου έως τέλος Μαρτίου και σχηματίζεται σε βάθος από 5-35 εκ. περίπου. Αναπτύσσεται και σε άγονα, απρόσιτα εδάφη στα οποία δεν αποδίδουν άλλες καλλιέργειες.\nTuber brumale var brumale\nΤο μέγεθος των καρποφοριών κυμαίνεται από 1εκ. έως 4-7εκ. μέγιστο και το βάρος τους από 30-100γρ. Ωριμάζει μέσα Νοεμβρίου έως τέλος Μαρτίου. Ζει στα ίδια εδάφη με το Τ.melanosporum αλλά εξελίσσεται καλά και σε περιοχές με λίγο ασβέστιο.\nTuber Aestivum\nΈχει διάμετρο από 1-14εκ., βάρος έως 500γρ. Σε μερικές περιπτώσεις μπορεί να φτάσει και το 1 κιλό. Οι καλύτερες τρούφες αυτής της ποικιλίας συλλέγονται τον Σεπτέμβριο-Οκτώβριο, όταν η θερμοκρασία αρχίζει να πέφτει. Θέλει ασβεστώδη εδάφη με αρκετό χαλίκι, αλλά αντέχει και σε αργιλώδη εδάφη.\nTuber Aestivum forma uncinatum\nΕίναι ανώτερης ποιότητας τρούφα σε σχέση με την Τ.aestivum. Η ωρίμανση των καρποφοριών αρχίζει μέσα Ιουνίου και στην περίπτωση που οι βροχές του Ιουλίου είναι ανεπαρκείς, οι τρούφες αφυδατώνονται και δεν ωριμάζουν. Οι καλύτερες τρούφες είναι αυτές που ωριμάζουν τους μήνες Οκτώβριο, Νοέμβριο και Δεκέμβριο. Μπορεί να συγκομιστούν μέχρι και τον Φεβρουάριο.\nTuber Magnatum\nΗ ποικιλία αυτή είναι η πιο εκλεκτή και ακριβή, όμως οι παραγωγοί δε θα πρέπει να ενθαρρύνονται να φυτεύουν μεγάλες εκτάσεις από την συγκεκριμένη τρούφα, παρά μόνο δοκιμαστικά. Είναι η πιο ευαίσθητη ποικιλία τρούφας τόσο στον ανταγωνισμό με άλλες μυκόριζες, όσο και στην αναγκαιότητα να υπάρχουν άριστες συνθήκες για την ανάπτυξή της.\nTuber borchii\nΠροσαρμόζεται σε πάρα πολλά εδάφη, όμως προτιμάει εδάφη που στραγγίζουν καλά, ακόμη και σε αυτά που είναι αρκετά ξερά κατά τη διάρκεια του καλοκαιριού.\nΦΥΤΑ – ΦΟΡΕΙΣ ΤΗΣ ΤΡΟΥΦΑΣ\nΦΟΥΝΤΟΥΚΙΑ (Παραγωγή στα 5-6 χρόνια)\nΒΕΛΑΝΙΔΙΑ (Παραγωγή στα 7-9 χρόνια)\nΦΛΑΜΟΥΡΙΑ (Παραγωγή στα 7-9 χρόνια)\nΕΛΙΑ",
+        "categorySlug": "dasika"
+    },
+    {
+        "imagePath": "",
+        "title": "Αγριοκαστανιές",
+        "slug": "agriokastanies",
+        "description": "",
+        "categorySlug": "dasika"
+    },
+    {
+        "imagePath": "",
+        "title": "Άγριες Καρυδιές",
+        "slug": "agries-karudies",
+        "description": "",
+        "categorySlug": "dasika"
+    },
+    {
+        "imagePath": "",
+        "title": "Αγριοκερασιές",
+        "slug": "agriokerasies",
+        "description": "",
+        "categorySlug": "dasika"
+    },
+    {
+        "imagePath": "",
+        "title": "Αγριομηλιές",
+        "slug": "agriomilies",
+        "description": "",
+        "categorySlug": "dasika"
+    },
+    {
+        "imagePath": "",
+        "title": "Κρανιές",
+        "slug": "kranies",
+        "description": "",
+        "categorySlug": "dasika"
+    },
+    {
+        "imagePath": "",
+        "title": "Ελιές",
+        "slug": "elies",
+        "description": "Ποικιλίες:\nΚορωνέικη, Γαλάτιστας, Θασίτικη, Λευκολιά Σερρών, Μανάκι-Κοθρέικη, Μαυρολιά Σερρών, Μεγάρων, Πιερίας, Πετρολιά Σερρών, Αμφίσσης, Καλαμών,Χαλκιδικής, Arbequina (ES), Carolea (IT), Picual (ES), Manzanilla (ES), Gemlik (TR)",
+        "categorySlug": "elies"
+    },
+    {
+        "imagePath": "",
+        "title": "Σταφύλια/Κλήματα",
+        "slug": "stafulia/klimata",
+        "description": "Υποκείμενα: 41Β, Ρ1103, R110, RU140, SO4\nΠοικιλίες:\nΟΙΝΟΠΟΙΗΣΙΜΑ ΕΡΥΘΡΑ : CINSAUT, ΚΟΛΙΝΙΑΤΙΚΟ, ΜΟΣΧΟΦΙΛΕΡΟ, ΛΗΜΝΙΟ, ΑΓΙΩΡΓΙΤΙΚΟ, ΚΟΤΣΙΦΑΛΙ, ΜΑΥΡΟΔΑΦΝΗ, ΡΙΦΟΣΚΟ, ΑΚΟΜΙΝΑΤΟ, GRENACHE ROUGE, CARIGNAN, CABERNET SAUVIGNON, SYRAH, ΡΟΜΠΟΛΑ ΚΟΚΚΙΝΗ, ΒΕΡΖΑΜΙ, ΗΙΝΟΜΑΥΡΟ, ΛΙΑΤΚΟ, ΜΑΝΤΗΛΑΡΙΑ, ΜΟΣΧΑΤΟ ΜΑΥΡΟ, ΤΣΑΡΔΑΝΑ, ΦΩΚΙΑΝΟ, RINOT NOIR, ΑΥΓΟΥΣΤΙΑΤΗΣ, ΡΩΜΕΙΚΟ, MERLOT, CABERNET FRANC, ΠΑΡΙΑΝΟ, ΒΛΑΧΙΚΟ\nΟΙΝΟΠΟΙΗΣΙΜΑ ΛΕΥΚΑ: CHARDONNAY, GRENACHE-BLANC, ΡΟΔΙΤΗΣ, ΣΑΒΒΑΤΙΑΝΟ, ΦΙΛΕΡΙ, ΜΟΣΧΑΤΟ ΡΙΟΥ, ΜΟΣΧΑΤΟ ΑΛΕΞΑΝΔΡΕΙΑΣ, ΑΣΥΡΤΙΚΟ, ΕΔΕΣΣΗΣ, ΒΑΡΔΕΑ, ΡΟΜΠΟΛΑ, ΝΤΕΜΠΙΝΑ, ΒΙΔΙΑΝΟ, ΓΟΥΣΤΟΛΙΔΙ, ΚΥΔΟΝΙΤΣΑ, ΜΟΝΕΜΒΑΣΙΑ, ΜΠΑΤΙΚΙ, SAUVIGNON, ΒΕΡΖΑΜΗ ΛΕΥΚΟ, ΣΙΔΕΡΙΤΗΣ, ΡΟΔΙΤΗΣ ΚΟΚΚΙΝΟΣ, ΜΑΛΒΑΖΙΑ\nΕΠΙΤΡΑΠΕΖΙΑ: ΣΟΥΛΤΑΝΙΝΑ, ΣΤΑΦΙΔΑ ΜΑΥΡΗ, ΣΤΑΦΙΔΑ ΚΟΚΚΙΝΗ, ΑΜΒΟΥΡΓΟΥ, ΓΚΟΛΝΤ, ΠΕΡΛΕΤ, ΑΤΤΙΚΗΣ, ΒΙΚΤΟΡΙΑ, ΙΤΑΛΙΑ, ΡΟΥΑΓΙΑΛ, ΦΡΑΟΥΛΟ, ΚΕΡΙΝΟ, THOMSON, CALMERIA, ΚΑΡΝΤΙΝΑΛΕ, CRIMSON, ΡΑΛΙ, Σουπέριο, FLAME SEEDLESS, ΣΟΥΛΤΑΝΙΝΑ ΥΡΕΡΠΡΩΙΜΗ, ΣΟΥΛΤΑΝΙΝΑ ΤΑΣΟΠΟΥΛΟΣ, ΣΟΥΛΤΑΝΙΝΑ ΧΟΝΔΡΟΣ",
+        "categorySlug": "stafilia"
+    },
+    {
+        "imagePath": "",
+        "title": "Πορτοκαλιές",
+        "slug": "portokalies",
+        "description": "Ποικιλίες: Παραδοσιακές και νέες ποικιλίες",
+        "categorySlug": "esperidoeidi"
+    },
+    {
+        "imagePath": "",
+        "title": "Μανταρινιές",
+        "slug": "mantarinies",
+        "description": "Ποικιλίες: Παραδοσιακές και νέες ποικιλίες",
+        "categorySlug": "esperidoeidi"
+    },
+    {
+        "imagePath": "",
+        "title": "Λεμονιές",
+        "slug": "lemonies",
+        "description": "Ποικιλίες: Παραδοσιακές και νέες ποικιλίες",
+        "categorySlug": "esperidoeidi"
+    },
+    {
+        "imagePath": "",
+        "title": "Μύρτιλα",
+        "slug": "murtila",
+        "description": "",
+        "categorySlug": "super-foods"
+    },
+    {
+        "imagePath": "",
+        "title": "Βατόμουρα",
+        "slug": "vatomoura",
+        "description": "",
+        "categorySlug": "super-foods"
+    },
+    {
+        "imagePath": "",
+        "title": "Αρόνια",
+        "slug": "aronia",
+        "description": "",
+        "categorySlug": "super-foods"
+    },
+    {
+        "imagePath": "",
+        "title": "Κρανιές",
+        "slug": "kranies",
+        "description": "",
+        "categorySlug": "super-foods"
+    },
+    {
+        "imagePath": "",
+        "title": "Σμέουρα",
+        "slug": "smeoura",
+        "description": "",
+        "categorySlug": "super-foods"
+    },
+    {
+        "imagePath": "",
+        "title": "Bamboo Just Moso",
+        "slug": "bamboo-just-moso",
+        "description": "",
+        "categorySlug": "bamboo"
+    },
+    {
+        "imagePath": "",
+        "title": "΄Λέιλαντ",
+        "slug": "leilant",
+        "description": "",
+        "categorySlug": "kallopistika"
+    },
+    {
+        "imagePath": "",
+        "title": "Φωτίνιες",
+        "slug": "fotinies",
+        "description": "",
+        "categorySlug": "kallopistika"
     }
 ]
