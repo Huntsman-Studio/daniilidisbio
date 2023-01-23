@@ -1,7 +1,7 @@
-<section *ngIf="!menu" class="w-full">
+<section *ngIf="!menu" class="w-full lg:flex lg:justify-center">
     
-    <div>
-        <div class="w-full h-screen bg-[#EFF1F0]">
+    <div class="w-full">
+        <div class="w-full h-screen bg-[#EFF1F0] lg:px-16">
             <app-home></app-home>
         </div>
         <div class="w-full h-screen bg-[#333628]">
@@ -15,7 +15,7 @@
         </div>
     </div>
 
-    <div class="fixed bottom-0 left-0 pb-12 w-full flex justify-center z-30">
+    <div class="fixed bottom-0 left-0 pb-12 w-full flex justify-center z-50 lg:hidden">
         <button (click)="showMenu()" class="bg-[#CEE9DC] h-16 px-9 rounded-full text-black text-base font-bold shadow-[0px_24px_30px_5px_rgba(0,0,0,0.15)] flex justify-center items-center gap-5 hover:shadow-none hover:bg-[#BDE2D1] focus:outline-dashed focus:outline-[#BDE2D1] focus:outline-2 focus:outline-offset-2">
             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M5 16H27" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
