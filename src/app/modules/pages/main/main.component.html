@@ -1,16 +1,16 @@
 <section *ngIf="!menu" class="w-full lg:flex lg:justify-center">
     
-    <div class="w-full">
-        <div class="w-full h-screen bg-[#EFF1F0] lg:px-16">
+    <div class="w-full lg:h-screen lg:overflow-y-scroll lg:snap-y lg:snap-mandatory">
+        <div class="lg:snap-always lg:snap-start w-full h-screen bg-[#EFF1F0] lg:px-16">
             <app-home></app-home>
         </div>
-        <div class="w-full h-screen bg-[#333628] lg:px-16">
+        <div class="lg:snap-always lg:snap-start w-full h-screen bg-[#333628] lg:px-16">
             <app-about></app-about>
         </div>
-        <div class="w-full h-screen bg-[#061C12] lg:px-16">
+        <div class="lg:snap-always lg:snap-start w-full h-screen bg-[#061C12] lg:px-16">
             <app-bio></app-bio>
         </div>
-        <div class="w-full h-screen bg-[#30231A] lg:px-16">
+        <div class="lg:snap-always lg:snap-start w-full h-screen bg-[#30231A] lg:px-16">
             <app-contact></app-contact>
         </div>
     </div>
