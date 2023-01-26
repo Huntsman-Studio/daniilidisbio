@@ -21,6 +21,7 @@ export class HeaderComponent implements OnInit {
     });
     // On scroll sticky header
     fromEvent(window, "scroll").subscribe((event) => {
+      console.log("booom");
       if (!this._menu) {
         let screenHeight: number = screen.height - 88;
         if (window.pageYOffset >= screenHeight && window.pageYOffset <= screenHeight * 2) {

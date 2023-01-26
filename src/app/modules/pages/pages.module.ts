@@ -10,8 +10,7 @@ import { BioComponent } from './main/bio/bio.component';
 import { ContactComponent } from './main/contact/contact.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HeaderModule } from '../header/header.module';
-
-
+import { MenuDeModule } from '../menu-de/menu-de.module';
 
 @NgModule({
   declarations: [
@@ -21,17 +20,19 @@ import { HeaderModule } from '../header/header.module';
     HomeComponent,
     AboutComponent,
     BioComponent,
-    ContactComponent,
+    ContactComponent
   ],
   imports: [
     CommonModule,
     PagesRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    HeaderModule
+    HeaderModule,
+    MenuDeModule
   ],
   exports: [
-    HeaderModule
+    HeaderModule,
+    MenuDeModule
   ]
 })
 export class PagesModule { }

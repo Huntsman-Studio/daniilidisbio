@@ -1,0 +1,44 @@
+<div #menu class="hidden lg:block absolute top-0 right-16 pt-10">
+    <!-- <div class="max-w-[1280px]"> -->
+        <!-- <div #title>
+            <h3 class="text-[#4C4C4C] text-2xl">Τα είδη που διαθέτουμε</h3>
+        </div> -->
+        <div class="flex justify-end items-center">
+            <div class="w-full max-w-[1280px] flex justify-end items-center">
+                <div class="grid grid-cols-2 pt-3 max-w-max justify-items-end">
+                    <div *ngFor="let item of categories" class="pt-3 pr-3 cursor-pointer">
+                        <div
+                            [routerLink]="['/category/'+item.slug]"
+                            [style.background]="'url(\''+item.imagePath+'\')'"
+                            [style.background-repeat]="'no-repeat'"
+                            [style.background-size]="'cover'"
+                            class="rounded-2xl bg-cover bg-no-repaeat flex justify-center items-end h-[130px] w-[180px] hover:outline hover:outline-offset-4 hover:outline-black">
+                            <div
+                                [style.background]="item.color"
+                                class="w-full rounded-2xl flex justify-between items-center pl-6 pr-4 py-3 text-white"> 
+                                <div>
+                                    <h3 class="text-base font-bold">{{item.title}}</h3>
+                                </div>
+                                <div>
+                                    <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L6 6L1 11" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-3 pr-3">
+                        <div class="bg-[#092B1B] h-[130px] w-[180px] cursor-pointer rounded-2xl p-4 hover:outline hover:outline-offset-4 hover:outline-black">
+                            <p class="text-white text-lg">Επικοινωνήστε μαζί μας</p>
+                            <p class="flex justify-center w-full pt-4">
+                                <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M25.7125 19.3185L16.7125 28.3185C16.5214 28.5033 16.2659 28.6066 16 28.6066C15.7341 28.6066 15.4787 28.5033 15.2875 28.3185L6.28751 19.3185C6.15185 19.1739 6.0599 18.9938 6.0223 18.7992C5.98469 18.6045 6.00297 18.4032 6.07501 18.2185C6.15151 18.0365 6.28018 17.8812 6.44479 17.7722C6.6094 17.6632 6.80259 17.6053 7.00001 17.606H15V5.60596C15 5.34074 15.1054 5.08639 15.2929 4.89885C15.4804 4.71131 15.7348 4.60596 16 4.60596C16.2652 4.60596 16.5196 4.71131 16.7071 4.89885C16.8947 5.08639 17 5.34074 17 5.60596V17.606H25C25.1974 17.6053 25.3906 17.6632 25.5552 17.7722C25.7198 17.8812 25.8485 18.0365 25.925 18.2185C25.9971 18.4032 26.0153 18.6045 25.9777 18.7992C25.9401 18.9938 25.8482 19.1739 25.7125 19.3185Z" fill="white"/>
+                                </svg>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </div>
+    <!-- </div> -->
+</div>
