@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Route, Router } from '@angular/router';
 import { GlobalDataService } from 'src/app/core/global-data.service';
 import { ICategory } from 'src/app/shared/interfaces/category';
 
@@ -11,7 +12,7 @@ export class MenuDeComponent implements OnInit{
 
   categories: ICategory[] = [];
 
-  constructor(private _globalData: GlobalDataService) {}
+  constructor(private _globalData: GlobalDataService, private _router: Router) {}
 
   ngOnInit(): void {
     this.getCategories();

@@ -8,7 +8,7 @@
 <div class="w-full h-screen lg:flex lg:justify-center lg:overflow-y-scroll lg:px-16">
     <div class="pt-10 px-6 lg:px-0 w-full lg:max-w-[1280px] bg-[#30231A]">
         <div class="max-w-[520px]">
-            <div class="grid mt-16 lg:mt-28">
+            <div class="grid mt-16 ">
                 <h1 class="text-white text-2xl font-bold">Επικοινωνήστε μαζί μας</h1>
                 <p class="text-white text-base pt-3 whitespace-pre-wrap">Θα χαρούμε να σας ακούσουμε! Παραμένουμε δίπλα στον Έλληνα παραγωγό και ενισχύουμε την εξέλιξη των καλλιεργειών με καινοτομίες, βελτιώσεις και σύγχρονες προτάσεις.</p>
                 <!-- <div class="pt-8"></div> -->
@@ -50,9 +50,9 @@
         </div>
         <div class="max-w-[520px]">
             <!-- about us -->
-            <div class="mt-24 px-6 pb-6">
+            <div class="mt-24 px-6 lg:px-0 pb-6">
                 <h2 class="text-[#BCB7B4] text-2xl font-bolfd">Σχετικά με εμάς</h2>
-                <div class="bg-[#534841] px-4 pt-4 pb-12 rounded-3xl space-y-6 text-[#DFDCDB] text-base">
+                <div class="bg-[#534841] px-4 pt-4 lg:mt-6 pb-12 rounded-3xl space-y-6 text-[#DFDCDB] text-base">
                     <p>Τα φυτώρια Δανιηλίδης διαθέτουν ιδιόκτητες κτιριακές εγκαταστάσεις συνολικού εμβαδού 800 τ.μ. που περιλαμβάνουν αποθηκευτικούς χώρους, δύο ψυκτικούς θαλάμους και τα γραφεία μας</p>
                     <p class="font-bold">Νάουσα, 590 35<br>1ο χλμ Μονοσπίτων - Σ.Σ. Νάουσας</p>
                     <p><a href="tel:00302332043331">Τηλέφωνο (+30) <span class="font-bold">2332 043 331</span></a>
@@ -65,7 +65,7 @@
 </div>
 
 <!-- footer -->
-<div class="bg-[#281D16]">
+<div class="bg-[#281D16] z-50">
     <div class="grid grid-cols-2 place-content-start pt-6 lg:pt-12 lg:flex lg:justify-center lg:items-center lg:gap-4 pb-36 lg:pb-6 px-11 text-[#DFDCDB] text-sm">
         <p class="text-left lg:text-center" *ngFor="let item of categories">{{item.title}}</p>
     </div>

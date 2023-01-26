@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { AngularFaviconService } from 'angular-favicon';
 
 @Component({
@@ -14,7 +15,8 @@ export class AppComponent implements OnInit {
 
   title = 'daniilidisbio';
 
-  constructor (private ngxFavicon: AngularFaviconService) { }
+  constructor (private ngxFavicon: AngularFaviconService,
+              public route: Router) { }
 
   ngOnInit() {
     this.ngxFavicon.setFavicon(this.faviconDark, this.faviconLight);

@@ -8,11 +8,12 @@
                 <div class="grid grid-cols-2 pt-3 max-w-max justify-items-end">
                     <div *ngFor="let item of categories" class="pt-3 pr-3 cursor-pointer">
                         <div
-                            [routerLink]="['/category/'+item.slug]"
+                            [routerLink]="['/category/', item.slug]"
+                            routerLinkActive="outline outline-offset-4 outline-[#092B1B]"
                             [style.background]="'url(\''+item.imagePath+'\')'"
                             [style.background-repeat]="'no-repeat'"
                             [style.background-size]="'cover'"
-                            class="rounded-2xl bg-cover bg-no-repaeat flex justify-center items-end h-[130px] w-[180px] hover:outline hover:outline-offset-4 hover:outline-black">
+                            class="rounded-2xl bg-cover bg-no-repaeat flex justify-center items-end h-[130px] w-[180px] hover:outline hover:outline-offset-4 hover:outline-[#092B1B]">
                             <div
                                 [style.background]="item.color"
                                 class="w-full rounded-2xl flex justify-between items-center pl-6 pr-4 py-3 text-white"> 
@@ -28,6 +29,7 @@
                         </div>
                     </div>
                     <div class="pt-3 pr-3">
+                        <a href="http://localhost:4200/#contact">
                         <div class="bg-[#092B1B] h-[130px] w-[180px] cursor-pointer rounded-2xl p-4 hover:outline hover:outline-offset-4 hover:outline-black">
                             <p class="text-white text-lg">Επικοινωνήστε μαζί μας</p>
                             <p class="flex justify-center w-full pt-4">
@@ -36,6 +38,7 @@
                                 </svg>
                             </p>
                         </div>
+                        </a>
                     </div>
                 </div>
                 </div>

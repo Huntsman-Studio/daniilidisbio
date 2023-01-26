@@ -1,18 +1,10 @@
 <main>
-    
     <header>
         <app-menu></app-menu>
         <app-header></app-header>
     </header>
-    <!-- <section class="w-full flex justify-center items-center"> -->
     <section>
-        <!-- <div class="grid grid-cols-12">
-            <div class="col-span-12 lg:cols-span-10"> -->
-                <router-outlet></router-outlet>
-            <!-- </div>
-            <div class="hidden lg:block lg:col-span-2"> -->
-                <app-menu-de></app-menu-de>
-            <!-- </div>
-        </div> -->
+            <router-outlet></router-outlet>
+            <app-menu-de *ngIf="!route.url.includes('plant')"></app-menu-de>
     </section>
 </main>

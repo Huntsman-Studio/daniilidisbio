@@ -1,6 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
+import { ActivatedRoute, Router } from '@angular/router';
+import { GlobalDataService } from 'src/app/core/global-data.service';
 import { IPlant } from 'src/app/shared/interfaces/plant'; 
+import { ICategory } from 'src/app/shared/interfaces/category';
+import { switchMap } from 'rxjs';
 
 @Component({
   selector: 'app-category',
@@ -9,23 +13,43 @@ import { IPlant } from 'src/app/shared/interfaces/plant';
 })
 export class CategoryComponent implements OnInit {
 
-  plants: IPlant[] = [
-    { imagePath: 'assets/images/oranges.jpeg', title: 'Ροδακινιές', description: 'Υποκείμενα: Σπορόφυτο, Ishtara – Ferciana, Cadaman – Avimag, GF677, Puebla de Sotto, Adesoto, Rootpac R Replant pac (POV) CER \n \n Ποικιλίες: Παραδοσιακές και νέες ποικιλίες', slug: 'test', categorySlug: 'test' },
-    { imagePath: 'assets/images/oranges.jpeg', title: 'Ροδακινιές', description: 'Υποκείμενα: Σπορόφυτο, Ishtara – Ferciana, Cadaman – Avimag, GF677, Puebla de Sotto, Adesoto, Rootpac R Replant pac (POV) CER \n \n Ποικιλίες: Παραδοσιακές και νέες ποικιλίες', slug: 'test', categorySlug: 'test' },
-    { imagePath: 'assets/images/oranges.jpeg', title: 'Ροδακινιές', description: 'Υποκείμενα: Σπορόφυτο, Ishtara – Ferciana, Cadaman – Avimag, GF677, Puebla de Sotto, Adesoto, Rootpac R Replant pac (POV) CER \n \n Ποικιλίες: Παραδοσιακές και νέες ποικιλίες', slug: 'test', categorySlug: 'test' },
-    { imagePath: 'assets/images/oranges.jpeg', title: 'Ροδακινιές', description: 'Υποκείμενα: Σπορόφυτο, Ishtara – Ferciana, Cadaman – Avimag, GF677, Puebla de Sotto, Adesoto, Rootpac R Replant pac (POV) CER \n \n Ποικιλίες: Παραδοσιακές και νέες ποικιλίες', slug: 'test', categorySlug: 'test' }
-  ];
+  plants: IPlant[] = [];
+  catTitle: string = "";
 
-  catTitle: string = 'Οπωροφόρα';
+  private _category: string = this._activateRoute.snapshot.paramMap.get("slug")!;
   
-  constructor(private _meta: Meta, private _title: Title) {}
+  constructor(private _meta: Meta, 
+              private _title: Title,
+              private _globalData: GlobalDataService,
+              private _activateRoute: ActivatedRoute) {
+
+    this._activateRoute.params.subscribe(params => {
+      this._category = params['slug'];
+      this.plants = [];
+      this.getPlants(this._category);
+      this.getCategoryTitle(this._category);
+    })
+
+  }
 
   ngOnInit(): void {
-    this.getPlants();
+    this.getCategoryTitle(this._category);
+    this.getPlants(this._category);
   }
 
-  getPlants(): void {
-    this.plants
+  getPlants(cat: string): void {
+    this._globalData.getPlants().subscribe((res) => {
+      res.forEach(element => {
+        if (element.categorySlug == cat) {
+          this.plants.push(element);
+        }
+      });
+    });
   }
 
+  getCategoryTitle(val: string): void {
+    this._globalData.getCategories().subscribe((cat) => {
+      this.catTitle = cat.find(element => element.slug == val)!.title;
+    });
+  }
 }
