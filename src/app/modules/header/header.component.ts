@@ -1,4 +1,5 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { Router } from '@angular/router';
 import { fromEvent } from 'rxjs';
 import { GlobalDataService } from 'src/app/core/global-data.service';
 
@@ -13,7 +14,7 @@ export class HeaderComponent implements OnInit {
   @ViewChild("logo") logo!: ElementRef;
   @ViewChild("logoBg") logoBg!: ElementRef;
 
-  constructor(private _globalData: GlobalDataService) {}
+  constructor(private _globalData: GlobalDataService, public router: Router) {}
 
   ngOnInit(): void {
     this._globalData.menu.subscribe( res => {
