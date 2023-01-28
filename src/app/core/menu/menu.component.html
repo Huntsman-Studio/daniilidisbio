@@ -19,6 +19,7 @@
         <nav class="space-y-4">
             <div *ngFor="let item of categories">
                 <div
+                    [routerLink]="['/category/', item.slug]"
                     [style.background]="'url(\''+item.imagePath+'\')'"
                     [style.background-repeat]="'no-repeat'"
                     [style.background-size]="'cover'"
