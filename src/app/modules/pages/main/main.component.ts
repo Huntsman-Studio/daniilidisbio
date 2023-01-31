@@ -13,18 +13,31 @@ export class MainComponent implements OnInit {
   menu: boolean | undefined;
 
   constructor(
-    private _meta: Meta, 
-    private _title: Title, 
-    private _globalDataService: GlobalDataService) {}
+    private meta: Meta, 
+    private title: Title, 
+    private globalDataService: GlobalDataService) {
+
+      meta.addTags([
+        // Essential META Tags
+        { property: 'og:title', content: 'Φυτώρια Δανιηλίδη' },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:image', content: 'assets/images/categories/oporofora.jpg' },
+        { property: 'og:url', content: 'https://daniilidisbio.gr' },
+        // Non-Essential, But Recomended
+        { property: 'og:description', content: 'Από τις μεγαλύτερες επιχειρήσεις φυτωρίων στην Ελλάδα, για πάνω από 40 χρόνια.' }
+      ]);
+
+      title.setTitle("Αρχική | Φυτώρια Δανιηλίδη");
+    }
 
     ngOnInit(): void {
-      this._globalDataService.menu.subscribe(res => {
+      this.globalDataService.menu.subscribe(res => {
         this.menu = res;
       })
     }
 
   // open menu
   showMenu(): void {
-    this._globalDataService.showHideMenu(true);
+    this.globalDataService.showHideMenu(true);
   }
 }

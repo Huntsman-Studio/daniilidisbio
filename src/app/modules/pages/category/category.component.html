@@ -18,7 +18,7 @@
 
         <!-- back button -->
         <div class="mt-6 w-full flex items-center gap-4">
-            <div class="w-12 h-12 bg-[#CEE9DC] flex justify-center items-center rounded-full">
+            <div (click)="backClicked()" class="w-12 h-12 bg-[#CEE9DC] flex justify-center items-center rounded-full">
                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M33.75 20H6.25" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                     <path d="M17.5 8.75L6.25 20L17.5 31.25" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -29,7 +29,7 @@
             </div>
         </div>
 
-        <!-- plants -->
+        <!-- plants -->ng add @nguniversal/express-engine
         <div class="mt-5 space-y-4 pb-10 lg:grid lg:grid-cols-2 lg:space-y-0 gap-6 w-full max-w-[690px]">
             <div *ngFor="let item of plants" 
                 [style.background]="'url(\''+ item.imagePath + '\')'"

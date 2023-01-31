@@ -5,6 +5,7 @@ import { GlobalDataService } from 'src/app/core/global-data.service';
 import { IPlant } from 'src/app/shared/interfaces/plant'; 
 import { ICategory } from 'src/app/shared/interfaces/category';
 import { switchMap } from 'rxjs';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-category',
@@ -14,31 +15,30 @@ import { switchMap } from 'rxjs';
 export class CategoryComponent implements OnInit {
 
   plants: IPlant[] = [];
+
+  private category: string = this.activateRoute.snapshot.paramMap.get("slug")!;
   catTitle: string = "";
-
-  private _category: string = this._activateRoute.snapshot.paramMap.get("slug")!;
   
-  constructor(private _meta: Meta, 
-              private _title: Title,
-              private _globalData: GlobalDataService,
-              private _activateRoute: ActivatedRoute) {
+  constructor(private meta: Meta, 
+              private title: Title,
+              private globalData: GlobalDataService,
+              private activateRoute: ActivatedRoute,
+              private location: Location) {
 
-    this._activateRoute.params.subscribe(params => {
-      this._category = params['slug'];
+    this.activateRoute.params.subscribe(params => {
+      this.category = params['slug'];
       this.plants = [];
-      this.getPlants(this._category);
-      this.getCategoryTitle(this._category);
-    })
-
+      this.catTitle = "";
+      this.getPlants(this.category);
+      this.getCategoryTitle(this.category);
+      this.title.setTitle(this.catTitle + " | Φυτώρια Δανιηλίδη");
+    });
   }
 
-  ngOnInit(): void {
-    this.getCategoryTitle(this._category);
-    this.getPlants(this._category);
-  }
+  ngOnInit(): void {  }
 
   getPlants(cat: string): void {
-    this._globalData.getPlants().subscribe((res) => {
+    this.globalData.getPlants().subscribe((res) => {
       res.forEach(element => {
         if (element.categorySlug == cat) {
           this.plants.push(element);
@@ -48,8 +48,12 @@ export class CategoryComponent implements OnInit {
   }
 
   getCategoryTitle(val: string): void {
-    this._globalData.getCategories().subscribe((cat) => {
-      this.catTitle = cat.find(element => element.slug == val)!.title;
+    this.globalData.getCategories().subscribe((cat) => {
+      this.catTitle= cat.find(element => element.slug == val)!.title;
     });
+  }
+
+  backClicked(): void {
+    this.location.back();
   }
 }
