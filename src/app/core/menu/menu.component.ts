@@ -1,6 +1,7 @@
 import { Component, OnInit} from '@angular/core';
 import { ICategory } from 'src/app/shared/interfaces/category';
 import { GlobalDataService } from '../global-data.service';
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-menu',
   templateUrl: './menu.component.html',
@@ -12,7 +13,7 @@ export class MenuComponent implements OnInit {
 
   categories: ICategory[] = [];
 
-  constructor (private _globalDataService: GlobalDataService) {}
+  constructor (private _globalDataService: GlobalDataService, private router: Router) {}
 
   ngOnInit(): void {
     this.getCategories();
@@ -35,6 +36,12 @@ export class MenuComponent implements OnInit {
   }
 
   closeMenu(): void {
+    this._globalDataService.showHideMenu(false);
+  }
+
+  // moveTo
+  moveTo(link: string): void {
+    window.open("category/" + link, "_self");
     this._globalDataService.showHideMenu(false);
   }
 }
