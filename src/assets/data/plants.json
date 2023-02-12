@@ -10,7 +10,7 @@
         "imagePath": "assets/images/plants/nektarinia.jpg",
         "title": "Νεκταρινιές",
         "slug": "nektarinies",
-        "description": "Υποκείμενα: Σπορόφυτο, Ishtara – Ferciana, Cadaman – Avimag, GF677, Puebla de Sotto, Adesoto\n Ποικιλίες: Κλασσικές και νέες ποικιλίες.\nEarly Dream, Florendia, Red Ball, New Top, Gea, Luciana, Sweet Lady, Zephyr, Kay Sweet, Garcica\nΝέα ποικιλία κοκκινόσαρκης νεκταρινιάς.",
+        "description": "Υποκείμενα: Σπορόφυτο, Ishtara – Ferciana, Cadaman – Avimag, GF677, Puebla de Sotto, Adesoto\n Κλασσικές και νέες ποικιλίες.\nEarly Dream, Florendia, Red Ball, New Top, Gea, Luciana, Sweet Lady, Zephyr, Kay Sweet, Garcica\nΝέα ποικιλία κοκκινόσαρκης νεκταρινιάς.",
         "categorySlug": "oporofora"
     },
     {
@@ -38,14 +38,14 @@
         "imagePath": "assets/images/plants/verikokia.jpg",
         "title": "Βερυκοκιές",
         "slug": "verikokies",
-        "description": "Διατίθενται Ευρωπαϊκές και Ελληνικές ποικιλίες.\nΥποκείμενα: Ishtara – Ferciana, 29C, MXR, Puebla De Sotto, Marianna, Σπορόφυτο\nΠοικιλίες: Νέες ποικιλίες με ανθεκτικότητα στη σάρκα και σε ειδικά υποκείμενα για πυκνοφυτεία. Διατίθενται γυμνόριζα και σε γλάστρα.",
+        "description": "Διατίθενται Ευρωπαϊκές και Ελληνικές ποικιλίες.\nΥποκείμενα: Ishtara – Ferciana, 29C, MXR, Puebla De Sotto, Marianna, Σπορόφυτο, Miravet\nΠοικιλίες: Νέες ποικιλίες με ανθεκτικότητα στη σάρκα και σε ειδικά υποκείμενα για πυκνοφυτεία. Διατίθενται γυμνόριζα και σε γλάστρα.",
         "categorySlug": "oporofora"
     },
     {
         "imagePath": "assets/images/plants/damaskinia.jpg",
         "title": "Δαμασκηνιές",
         "slug": "damaskinies",
-        "description": "ιατίθενται Ευρωπαϊκές και Ελληνικές ποικιλίες.\nΥποκείμενα: MIR 29C, GF677, Σπορόφυτο\nΠοικιλίες:\nΚοκκινόσαρκες:  BLACK DIAMOND, S.N.17.12 (μετά την BLACK DIAMOND) ,  BLACK SPLENDOR, H.F – 266 (μέσα Ιουνίου).\nΚλασσικές: RED BEAUTY, BLACK BEAUTY, BLACK STAR, SANTA ROSA, BLACK DIAMOND, FORTUNE, BLACK AMBER, OWEN T, FRIAR, TC SUN, ANGELENO, FREEDOM LARION, OCTOBER SUN, AUTUMN GIANT, STANLEY, PRESIDENT, RED QUEEN, ΣΚΟΠΕΛΟΥ (ΑGΕΝ).",
+        "description": "Υποκείμενα: MIR 29C, GF677, Σπορόφυτο\nΔιατίθενται παλιές και νέες ποικιλίες.",
         "categorySlug": "oporofora"
     },
     {
@@ -73,7 +73,7 @@
         "imagePath": "assets/images/plants/koromilia.jpg",
         "title": "Κορομηλιές",
         "slug": "koromilies",
-        "description": "Υποκείμενα: Σπορόφυτο\nΠοικιλίες: ",
+        "description": "",
         "categorySlug": "oporofora"
     },
     {
